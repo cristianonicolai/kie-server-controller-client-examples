@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.kie.server.controller.client.examples</groupId>
+  <artifactId>kie-server-controllert-client-examples</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0.0-SNAPSHOT</version>
+
+  <name>Kie Server Controller Client - Examples</name>
+
+  <dependencies>
+
+    <dependency>
+      <groupId>org.kie.server</groupId>
+      <artifactId>kie-server-controller-client</artifactId>
+      <version>7.6.0-SNAPSHOT</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.jboss.resteasy</groupId>
+      <artifactId>resteasy-client</artifactId>
+      <version>3.0.19.Final</version>
+    </dependency>
+
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>1.1.2</version>
+    </dependency>
+
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.7.0</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

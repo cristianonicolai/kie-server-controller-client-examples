@@ -1,2 +1,2 @@
 # kie-server-controller-client-examples
-Kir Server Controller Client Examples
+Kie Server Controller Client Examples
