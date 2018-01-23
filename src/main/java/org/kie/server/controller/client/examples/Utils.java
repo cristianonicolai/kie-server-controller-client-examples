@@ -2,7 +2,7 @@ package org.kie.server.controller.client.examples;
 
 public final class Utils {
 
-    public static final String WEB_SOCKET_URL = "ws://localhost:8230/kie-server-controller/websocket/controller/management";
+    public static final String WEB_SOCKET_URL = "ws://localhost:8230/kie-server-controller/websocket/controller";
     public static final String REST_URL = "http://localhost:8230/kie-server-controller/rest/controller";
     public static final String USER = "kieserver";
     public static final String PASSWORD = "kieserver1!";
