@@ -14,7 +14,7 @@
     <dependency>
       <groupId>org.kie.server</groupId>
       <artifactId>kie-server-controller-client</artifactId>
-      <version>7.6.0-SNAPSHOT</version>
+      <version>7.9.0.Final</version>
     </dependency>
 
     <dependency>
